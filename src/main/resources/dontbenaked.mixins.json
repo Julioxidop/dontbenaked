@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "net.pulga22.dontbenaked.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"AddFeatureRendererMixin",
+		"PlayerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
