@@ -3,15 +3,15 @@
 	"id": "dontbenaked",
 	"version": "${version}",
 	"name": "dontbenaked",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Easily replaces the texture of a player.",
 	"authors": [
-		"Me!"
+		"Pulga22"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Julioxidop/dontbenaked"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT License",
 	"icon": "assets/dontbenaked/icon.png",
 	"environment": "*",
 	"entrypoints": {
