@@ -3,10 +3,10 @@ Easily replaces the texture of a player. A fabric mod.
 
 ## How to use
 
-To active the overlay to a player:
+To activate the overlay on a player:
 ```/overlay <PLAYERS> set```
 
-To active the overlay to a player:
+To disable the overlay for a player:
 ```/overlay <PLAYERS> unset```
 
 
