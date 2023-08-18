@@ -41,7 +41,7 @@ public class ChangeSuitActiveCommand {
             ((ISuitAccessor) target).dontbenaked$setSuitActive(active);
             ServerPlayNetworking.send(target, Packets.CHANGE_SUIT_ACTIVE, buf);
         });
-        source.sendFeedback(() -> Text.of("Se ha actualizado a " + targets.size() + " jugadores."), true);
+        source.sendFeedback(Text.of("Se ha actualizado a " + targets.size() + " jugadores."), true);
         return 1;
     }
 
